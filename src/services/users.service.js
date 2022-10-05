@@ -6,3 +6,5 @@ const usersService = {
     getPosts: (userId) => axiosService.get(`${urls.posts}/?userId=${userId}`)
 }
 
+export {usersService}
+
