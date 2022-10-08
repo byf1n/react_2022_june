@@ -1,24 +1,24 @@
 import {useForm} from "react-hook-form";
-import {usersService} from "../../services";
+import {commentsService} from "../../services";
 
-const Forms = ({setUsers}) => {
+const Forms = ({setComments}) => {
 
-    let {register, reset, handleSubmit, formState: {errors,isValid}} = useForm({
-        mode: "onBlur"
+    const {register, handleSubmit, reset, formState: {errors, isValid}} = useForm({
+        mode: 'all'
     });
 
     const submit = (obj) => {
-        usersService.postUser(obj).then(({data}) => setUsers(users => [...users,data]));
-        reset()
+        commentsService.postComment(obj).then(({data}) => setComments(comments => [...comments,data]));
+        reset();
     }
     return (
         <div>
             <form onSubmit={handleSubmit(submit)}>
-                <input type="text" placeholder={'name...'} {...register('name', {required: 'поле обязательно'})} />
+                <input type="text" placeholder={'name...'} {...register('name',
+                    {required: {value:true,message:'не заповнено!!!!'}} )}/>
                 {errors.name && <span>{errors.name.message}</span>}
-                <input type="text" placeholder={'username...'} {...register('username')}/>
-                <input type="text" placeholder={'email...'} {...register('email')}/>
-                <button>submit</button>
+                <input type="text" placeholder={'body...'} {...register('body')}/>
+                <button disabled={! isValid}>submit</button>
             </form>
         </div>
     )
