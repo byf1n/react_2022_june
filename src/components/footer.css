@@ -1,0 +1,19 @@
+.footer{
+    height: 40vh;
+    width: 100%;
+    background-color: rgba(36, 50, 54, 0.53);
+}
+.footer_blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_last{
+    text-align: center;
+    padding-top: 10vh;
+}
+.footer_1{
+    padding-top: 5vh;
+}
+.footer_2, .footer_3{
+    padding-top: 3vh;
+}
