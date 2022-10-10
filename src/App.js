@@ -9,10 +9,16 @@ import {Footer} from "./components/footer";
 function App() {
     return (
         <div>
-            <div className={'header'}>
-                <div><Link to={'/'}>home</Link></div>
-                <div><Link to={'/users'}>users</Link></div>
-                <div><Link to={'/posts'}>posts</Link></div>
+
+            <header>
+                <div className={'header_1'}>f t y g</div>
+                <div className={'header_2'}>0675482048</div>
+            </header>
+
+            <div className={'main'}>
+                <div><Link className={'qwqw'} to={'/'}>home</Link></div>
+                <div><Link className={'qwqw'} to={'/users'}>users</Link></div>
+                <div><Link className={'qwqw'} to={'/posts'}>posts</Link></div>
             </div>
 
 
