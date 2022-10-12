@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    background-color: rgba(154, 72, 255, 0.81);
+}
+
+
