@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 7vh;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(0, 54, 108, 0.6);
+
+}
+.qwqw{
+    color: #ffffff;
+    font-size: 26px;
+    text-decoration: none;
+}
+.main > div > a.qwqw:hover{
+    color: #8d0000;
+}
+
+.main > div > a.qwqw.active{
+    color: #8d0000;
+}
