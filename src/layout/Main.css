@@ -14,6 +14,7 @@
 }
 .main > div > a.qwqw:hover{
     color: #8d0000;
+    cursor: pointer;
 }
 
 .main > div > a.qwqw.active{
