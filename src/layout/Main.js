@@ -1,11 +1,14 @@
 import './Main.css';
 
 import {NavLink, Outlet} from "react-router-dom";
+import {Header} from "../components";
 
 const Main = () => {
 
     return (
         <div>
+            <Header/>
+
             <div className={'main'}>
                 <div><NavLink className={'qwqw'} to={'home'}>home</NavLink></div>
                 <div><NavLink className={'qwqw'} to={'users'}>users</NavLink></div>
@@ -13,6 +16,8 @@ const Main = () => {
             </div>
 
             <Outlet/>
+
+            <Header/>
         </div>
     )
 }
