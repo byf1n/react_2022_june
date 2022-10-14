@@ -1,13 +1,29 @@
+import im1 from './imgs/4.jpg'
+import im2 from './imgs/3.jpg'
+import im3 from './imgs/2.jpg'
+import im4 from './imgs/1.jpg'
 import {NavLink} from "react-router-dom";
-
+import './Posts.css';
 const Posts = () => {
 
     return (
         <div>
             <div className={'main'}>
                 <div><NavLink className={'qwqw'} to={'/home'}>home</NavLink></div>
-                <div><NavLink className={'qwqw'} to={'/users'}>users</NavLink></div>
-                <div><NavLink className={'qwqw'} to={'/'}>posts</NavLink></div>
+                <div><NavLink className={'qwqw'} to={'/users'}>Приватні будинки</NavLink></div>
+                <div><NavLink className={'qwqw'} to={'/'}>Багатоповерхівки</NavLink></div>
+            </div>
+
+            <div className={'im1'}>
+                <div>
+                    <div className={'im'}><img src={im1} alt="im"/></div>
+                    <div className={'im'}><img src={im2} alt="im"/></div>
+                </div>
+                <div>
+                    <div className={'im'}><img src={im3} alt="im"/></div>
+                    <div className={'im'}><img src={im4} alt="im"/></div>
+                </div>
+
             </div>
 
             <h1>hello in posts page</h1>

@@ -6,8 +6,8 @@ const Users = () => {
         <div>
             <div className={'main'}>
                 <div><NavLink className={'qwqw'} to={'/home'}>home</NavLink></div>
-                <div><NavLink className={'qwqw'} to={'/'}>users</NavLink></div>
-                <div><NavLink className={'qwqw'} to={'/posts'}>posts</NavLink></div>
+                <div><NavLink className={'qwqw'} to={'/'}>Приватні будинки</NavLink></div>
+                <div><NavLink className={'qwqw'} to={'/posts'}>Багатоповерхівки</NavLink></div>
             </div>
 
             <h1>hello to ysers page </h1>

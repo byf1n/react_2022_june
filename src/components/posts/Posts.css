@@ -1,0 +1,10 @@
+.im1{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    height: 20vw;
+}
+.im{
+    padding-top: 5vh;
+}

@@ -10,8 +10,8 @@ const Home = () => {
             <div style={{backgroundImage: `url(${header})`}} className={'img'}>
                 <div  className={'main mainHome'}>
                     <div><NavLink className={'qwqw'} to={'/'}>home</NavLink></div>
-                    <div><NavLink className={'qwqw'} to={'/users'}>users</NavLink></div>
-                    <div><NavLink className={'qwqw'} to={'/posts'}>posts</NavLink></div>
+                    <div><NavLink className={'qwqw'} to={'/users'}>Приватні будинки</NavLink></div>
+                    <div><NavLink className={'qwqw'} to={'/posts'}>Багатоповерхівки</NavLink></div>
                 </div>
             </div>
             {/*style={{ backgroundImage: `url(${header})` }}*/}
