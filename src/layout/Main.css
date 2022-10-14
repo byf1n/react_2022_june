@@ -4,7 +4,7 @@
     height: 7vh;
     width: 100%;
     align-items: center;
-    background-color: rgba(0, 54, 108, 0.6);
+    background-color: rgba(14, 135, 187, 0.49);
 
 }
 .qwqw{
@@ -18,5 +18,10 @@
 }
 
 .main > div > a.qwqw.active{
+    /*color: #8d0000;*/
     color: #8d0000;
+}
+.banner{
+    background-size: 100%, 100vh;
+    background-repeat: no-repeat;
 }

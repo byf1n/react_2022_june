@@ -1,7 +1,23 @@
+import './Home.css';
+import header from "./header/banner.jpg";
+import {NavLink} from "react-router-dom";
+
+
 const Home = () => {
 
     return (
-        <div>
+        <div className={'home'}>
+            <div style={{backgroundImage: `url(${header})`}} className={'img'}>
+                <div  className={'main mainHome'}>
+                    <div><NavLink className={'qwqw'} to={'/'}>home</NavLink></div>
+                    <div><NavLink className={'qwqw'} to={'/users'}>users</NavLink></div>
+                    <div><NavLink className={'qwqw'} to={'/posts'}>posts</NavLink></div>
+                </div>
+            </div>
+            {/*style={{ backgroundImage: `url(${header})` }}*/}
+            {/*<div style={{ backgroundImage: `url(${header})` }} className={'img'}>*/}
+
+            {/*</div>*/}
             <h1>добро пожаловать к нам на сайт !!!</h1>
 
             <h5>это очень хороший сайт задонадьте плиз мне на штаны ..... </h5>

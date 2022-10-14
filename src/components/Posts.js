@@ -1,7 +1,15 @@
+import {NavLink} from "react-router-dom";
+
 const Posts = () => {
 
     return (
         <div>
+            <div className={'main'}>
+                <div><NavLink className={'qwqw'} to={'/home'}>home</NavLink></div>
+                <div><NavLink className={'qwqw'} to={'/users'}>users</NavLink></div>
+                <div><NavLink className={'qwqw'} to={'/'}>posts</NavLink></div>
+            </div>
+
             <h1>hello in posts page</h1>
 
             <p><div>

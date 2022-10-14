@@ -1,7 +1,7 @@
 .header_1, .header_2{
     width: 100%;
     height: 7vh;
-    background-color: rgba(112, 19, 122, 0.93);
+    background-color: rgb(112, 19, 122);
 }
 .header_1{
     border-bottom: 1px solid #a9a9a9;
@@ -17,6 +17,7 @@
     color: #dadada;
     font-size: small;
     padding-left: 10%;
-    padding-top: 1vh;
+    padding-top: 2vh;
     box-sizing: border-box;
 }
+
