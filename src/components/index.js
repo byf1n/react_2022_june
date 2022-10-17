@@ -1,2 +1,0 @@
-export * from './header/Header';
-export * from './header/Header.module.css';
